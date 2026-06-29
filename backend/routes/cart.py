@@ -19,6 +19,7 @@ def add_to_cart(item: CartItem):
 def get_cart(user_email:str):
     # get all shopping cart items for a specific user
     items = list(cart_collection.find({"user_email": user_email}, {'_id': 0}))
+    return items
 
 @router.delete("/{user_email}")
 def clear_cart(user_email: str):
