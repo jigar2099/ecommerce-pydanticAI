@@ -1,0 +1,28 @@
+# venv
+ecpyenv
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# Env variable
+.env
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+
+.logfire
+
+experiments\.logfire
+
+# Pytest
+.pytest_cache/
